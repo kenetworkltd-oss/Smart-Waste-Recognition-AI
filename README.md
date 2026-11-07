@@ -318,7 +318,7 @@ Beyond the final performance, the project demonstrates a complete practical lear
 
 ## 16. Author 
 
-** Agboola Kehinde Oluwaseun [Flyvark I]
+**Agboola Kehinde Oluwaseun**
 
 **Project:** Smart Waste Recognition AI
 
