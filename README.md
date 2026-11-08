@@ -1,11 +1,5 @@
 # Smart Waste Recognition AI
 
-<p align="center">
-  <img src="cardboard_prediction.jpg" width="30%" />
-  <img src="paper_prediction.jpg" width="30%" />
-  <img src="plastic_preditcion.png" width="30%" />
-</p>
-
 ## 1. Project Overview
 
 Smart Waste Recognition AI is a computer vision and deep learning project developed to classify waste materials into nine categories using Convolutional Neural Networks (CNNs).
@@ -217,6 +211,12 @@ The checkpoint is stored in the project's `colab_models` directory.
 
 ## 10. Real-Time Computer Vision and Waste Classification
 
+<p align="center">
+  <img src="cardboard_prediction.jpg" width="30%" />
+  <img src="paper_prediction.jpg" width="30%" />
+  <img src="plastic_preditcion.png" width="30%" />
+</p>
+
 OpenCV was integrated to extend the project beyond static dataset evaluation.
 
 Since Google Colab runs in a remote environment, browser-based JavaScript was used as a webcam access bridge, while Python handled image processing and model inference.
@@ -311,6 +311,14 @@ Potential future developments include:
 - Building a user-friendly web application.
 - Deploying the final model for public access.
 - Exploring integration with automated waste sorting and robotics systems.
+- Collecting more diverse and balanced waste images to improve generalisation.
+- Applying hyperparameter optimisation to identify better learning rates, batch sizes and model configurations.
+- Evaluating model performance under different lighting, backgrounds and camera conditions.
+- Implementing confidence thresholding and unknown-object rejection to reduce unreliable predictions.
+- Testing the model on external datasets to assess its ability to generalise beyond UCI RealWaste.
+- Optimising inference speed and memory usage for real-time applications.
+- Adding model explainability techniques such as Grad-CAM to understand which image regions influence predictions.
+- Implementing automated testing, model versioning and performance monitoring.
 
 ## 15. Conclusion
 
@@ -332,6 +340,6 @@ Beyond the final performance, the project demonstrates a complete practical lear
 
 **Framework:** PyTorch
 
-**Repository:** [GitHub repository link to be added]
+**Repository:** [GitHub](https://github.com/kenetworkltd-oss/Smart-Waste-Recognition-AI)
 
 **Project Status:** Core model development and real-time image classification completed. Full web deployment planned for a future portfolio development stage.
