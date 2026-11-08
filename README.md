@@ -1,5 +1,11 @@
 # Smart Waste Recognition AI
 
+<p align="center">
+  <img src="cardboard_prediction.jpg" width="30%" />
+  <img src="paper_prediction.jpg" width="30%" />
+  <img src="plastic_preditcion.png" width="30%" />
+</p>
+
 ## 1. Project Overview
 
 Smart Waste Recognition AI is a computer vision and deep learning project developed to classify waste materials into nine categories using Convolutional Neural Networks (CNNs).
