@@ -303,6 +303,7 @@ Although the project achieved 66.62% test accuracy, there are opportunities for 
 
 Potential future developments include:
 
+- Exploring pretrained models, transfer learning, Vision Transformers (ViT) and attention-is-all-you-need architectures when more powerful computational resources are available.( this method was initially adopted but we could not implement it due to computational limits) **Reference:** Vaswani et al. (2017), [Attention Is All You Need](https://arxiv.org/abs/1706.03762).
 - Improving classification performance across underperforming categories.
 - Experimenting with transfer learning using more suitable computational resources.
 - Comparing CNN architectures with Vision Transformers.
